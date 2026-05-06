@@ -1,0 +1,10 @@
+dataset_repo: ProcessBench-2026/ProcessBench-Anom
+split: eval
+prompt_version: default_mcqa_v1
+valid_only: true
+invalid_statuses:
+  - INVALID
+  - ERROR
+  - MISSING_FRAME
+temperature: 0.01
+max_tokens: 32
