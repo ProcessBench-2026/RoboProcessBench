@@ -1,4 +1,4 @@
-dataset_repo: ProcessBench-2026/ProcessBench-Anom
+dataset_repo: ProcessBench-2026/RoboProcessBench
 split: eval
 prompt_version: default_mcqa_v1
 valid_only: true
