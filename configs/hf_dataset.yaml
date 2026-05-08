@@ -1,8 +1,8 @@
-repo_id: ProcessBench-2026/ProcessBench-Anom
+repo_id: ProcessBench-2026/RoboProcessBench
 required_files:
   - README.md
   - benchmark_card.md
-  - data/processbench_eval.jsonl
-  - data/processdata_sft.jsonl
+  - splits/processbench_eval.jsonl
+  - splits/processdata_sft.jsonl
   - metadata/split_summary.json
   - metadata/eval_manifest.json
