@@ -25,7 +25,7 @@ def main() -> None:
     if not jsonl_path.exists():
         raise FileNotFoundError(f"could not find: {jsonl_path}")
 
- task_stats: dict[str, dict[str, int]] = defaultdict(lambda: {"correct": 0, "total": 0})
+    task_stats: dict[str, dict[str, int]] = defaultdict(lambda: {"correct": 0, "total": 0})
     dataset_stats: dict[str, dict[str, int]] = defaultdict(lambda: {"correct": 0, "total": 0})
     
     overall_correct = 0
@@ -64,14 +64,11 @@ def main() -> None:
         print("File contains no valid data lines.")
         return
 
-    print("\n" + "=" * 50)
     print(f"{'Task Type':<18} {'Accuracy':>8} {'Correct':>6} {'Total':>6} {'Incorrect':>6}")
-    print("-" * 50)
     for task_type in sorted(task_stats.keys()):
         stats = task_stats[task_type]
         acc = stats["correct"] / stats["total"]
         print(f"{task_type:<18} {acc*100:>7.2f}% {stats['correct']:>6} {stats['total']:>6} {stats['total']-stats['correct']:>6}")
-    print("=" * 50)
 
     overall_acc = overall_correct / overall_total
     print(f"{'Overall':<18} {overall_acc*100:>7.2f}% {overall_correct:>6} {overall_total:>6} {overall_total-overall_correct:>6}")
