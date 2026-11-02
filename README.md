@@ -120,9 +120,3 @@ See `docs/reconstruction.md` for how public release references map to upstream s
 - validating public benchmark artifacts
 - recomputing task-distribution tables and bootstrap CIs
 - reproducing appendix-style evaluation summaries from hosted artifacts
-
-## Out Of Scope
-
-- redistributing upstream raw videos or full frame caches
-- claiming deployment safety from benchmark score alone
-- using this repo as a substitute for upstream dataset access
