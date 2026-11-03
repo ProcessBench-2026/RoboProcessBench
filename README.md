@@ -1,6 +1,6 @@
 # RoboProcessBench
 
-RoboProcessBench is a comprehensive benchmark for evaluating robotic process learning and understanding. This repository contains the evaluation suite, dataset utilities, and scoring tools for the RoboProcessBench paper.
+RoboProcessBench is a comprehensive benchmark for evaluating robotic process learning and understanding. This repository contains the evaluation suite, dataset utilities, and scoring tools. This benchmark is one core contribution of the paper, **"Robo2Process: Benchmarking and Learning Process-Aware Understanding in Vision-Language Robotic Manipulation"**, which has been accpeted at the 40th Conference on Neural Information Processing Systems (NeurIPS 2026).
 
 ## Repository Contents
 
