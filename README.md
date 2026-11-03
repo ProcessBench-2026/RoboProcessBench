@@ -126,6 +126,8 @@ See `docs/reconstruction.md` for how public release references map to upstream s
 If you find our work inspiring or helpful, please use the following format for citation:
 
 ```bash
-Dayu Xia, Yue Shi, Yao Mu, Huiting Ji, Chaofan Ma, Yingjie Zhou, Jiezhang Cao, Hua Chen, Yang Liu, and Guangtao Zhai. Robo2Process: Benchmarking and Learning Process-Aware Understanding in Vision-Language Robotic Manipulation. arXiv preprint arXiv:2606.13040, 2026.
+Dayu Xia, Yue Shi, Yao Mu, Huiting Ji, Chaofan Ma, Yingjie Zhou, Jiezhang Cao, Hua Chen,
+Yang Liu, and Guangtao Zhai. Robo2Process: Benchmarking and Learning Process-Aware
+Understanding in Vision-Language Robotic Manipulation. arXiv preprint arXiv:2606.13040, 2026.
 ```
 
